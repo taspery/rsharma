@@ -18,7 +18,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://rsmakes.com"),
   title: {
-    default: "Ryan Sharma",
+    default: "Arduino, Raspberry Pi & Electronics Components — Ryan Sharma",
     template: "%s | Ryan Sharma",
   },
   description:
@@ -39,9 +39,9 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_AU",
     url: "/",
-    title: "Ryan Sharma",
+    title: "Arduino, Raspberry Pi & Electronics Components — Ryan Sharma",
     description:
-      "Ryan Sharma — maker, developer, and builder.",
+      "Quality electronic components for hobbyists, students, and makers. Arduino, Raspberry Pi, sensors, and DIY kits shipped Australia-wide from Sydney.",
     siteName: "Ryan Sharma",
   },
   robots: {

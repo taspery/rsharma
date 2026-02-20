@@ -7,10 +7,10 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://rsmakes.com';
 
 export const metadata: Metadata = {
   title: "Blog",
-  description: "Technical articles, experiments, and insights from the digital laboratory. Exploring systems programming, web development, AI, and more.",
+  description: "Technical articles, electronics tutorials, and maker insights. Arduino, Raspberry Pi, ESP32, and DIY electronics guides from Sydney, Australia.",
   openGraph: {
-    title: "Blog — EINCODE",
-    description: "Technical articles, experiments, and insights from the digital laboratory.",
+    title: "Blog — Ryan Sharma",
+    description: "Electronics tutorials, maker insights, and technical articles.",
     url: `${baseUrl}/blog`,
     type: "website",
     images: [
@@ -18,14 +18,14 @@ export const metadata: Metadata = {
         url: `${baseUrl}/og-image-blog.png`,
         width: 1200,
         height: 630,
-        alt: "EINCODE Blog",
+        alt: "Ryan Sharma Blog",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Blog — EINCODE",
-    description: "Technical articles, experiments, and insights from the digital laboratory.",
+    title: "Blog — Ryan Sharma",
+    description: "Electronics tutorials, maker insights, and technical articles.",
     images: [`${baseUrl}/og-image-blog.png`],
   },
   alternates: {

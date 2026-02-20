@@ -1,4 +1,11 @@
+import type { Metadata } from "next";
 import { Code2, Layers, FileText, Zap, Bot, Globe } from "lucide-react";
+
+export const metadata: Metadata = {
+  title: "About — Maker, Developer & Electronics Enthusiast",
+  description:
+    "Meet Ryan Sharma — maker, developer, and builder based in Sydney. Explore open-source projects, experiments, and electronics builds.",
+};
 
 export default function IntroductionPage() {
   return (

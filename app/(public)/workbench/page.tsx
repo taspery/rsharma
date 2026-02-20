@@ -5,11 +5,11 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://rsmakes.com';
 
 export const metadata: Metadata = {
   title: "Workbench",
-  description: "Active experiments, prototypes, and work in progress. A peek into the digital workshop where ideas take shape.",
-  keywords: ["experiments", "prototypes", "work in progress", "playground", "dev tools"],
+  description: "Active experiments, prototypes, and electronics work in progress. A peek into the digital workshop where ideas take shape.",
+  keywords: ["experiments", "prototypes", "work in progress", "electronics projects", "maker builds"],
   openGraph: {
-    title: "Workbench — EINCODE",
-    description: "Active experiments, prototypes, and work in progress.",
+    title: "Workbench — Ryan Sharma",
+    description: "Active experiments, prototypes, and electronics work in progress.",
     url: `${baseUrl}/workbench`,
     type: "website",
     images: [
@@ -17,14 +17,14 @@ export const metadata: Metadata = {
         url: `${baseUrl}/og-image-workbench.png`,
         width: 1200,
         height: 630,
-        alt: "EINCODE Workbench",
+        alt: "Ryan Sharma Workbench",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Workbench — EINCODE",
-    description: "Active experiments, prototypes, and work in progress.",
+    title: "Workbench — Ryan Sharma",
+    description: "Active experiments, prototypes, and electronics work in progress.",
     images: [`${baseUrl}/og-image-workbench.png`],
   },
   alternates: {
