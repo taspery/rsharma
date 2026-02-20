@@ -1,7 +1,7 @@
 {
-  "name": "EINCODE — Ehsan Ghaffar's Digital Laboratory",
-  "short_name": "EINCODE",
-  "description": "A digital workshop where code meets curiosity. Experiments, prototypes, and open-source artifacts by Ehsan Ghaffar.",
+  "name": "RS Makes",
+  "short_name": "RS Makes",
+  "description": "Quality electronic components for hobbyists, students, and makers. Arduino, Raspberry Pi, sensors, and DIY kits shipped Australia-wide from Sydney.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
